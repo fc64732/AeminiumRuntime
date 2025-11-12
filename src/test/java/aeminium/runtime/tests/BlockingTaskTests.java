@@ -96,8 +96,9 @@ public class BlockingTaskTests extends BaseTest {
 		rt.shutdown();
 		assertTrue( counter.get() == 2*TASK_COUNT );
 	}
+	@Test
+	public void testThatAlwaysFails() {
+		assertTrue(false);
+	}
 }
-@Test
-public void testThatAlwaysFails() {
-assertTrue(false);
-}
+
