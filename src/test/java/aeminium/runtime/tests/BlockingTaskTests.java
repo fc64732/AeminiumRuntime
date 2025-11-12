@@ -101,4 +101,3 @@ public class BlockingTaskTests extends BaseTest {
 		assertTrue(false);
 	}
 }
-
