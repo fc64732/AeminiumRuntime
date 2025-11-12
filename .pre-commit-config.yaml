@@ -1,7 +1,15 @@
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v2.3.0
+    rev: v6.0.0
     hooks:
     -   id: check-yaml
     -   id: end-of-file-fixer
     -   id: trailing-whitespace
+    -   id: pretty-format-json
+    -   id: sort-simple-yaml
+    -   id: mixed-line-ending
+    -   id: end-of-file-fixer
+    -   id: file-contents-sorter
+    -   id: double-quote-string-fixer
+    -   id: detect-private-key
+    -   id: destroyed-symlinks
